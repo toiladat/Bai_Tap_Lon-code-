@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jost:wght@200&family=Montserrat:ital,wght@0,100;0,400;1,300&family=Roboto&family=Space+Mono&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./ProductItem.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../listProduct/listProduct.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="top-header">
+                <div class="container">
+                    <ul class="top-header-list">
+                        <!-- list1 -->
+                        <li class="top-header-item">
+                            <a class="link-top-header" href="">
+                                <img class="icon-top-header"
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tra_cuu_don_hang.svg"
+                                    alt="" />
+                                Tra cứu đơn hàng
+                            </a>
+                        </li>
+                        <!-- list2 -->
+                        <li class="top-header-item">
+                            <a class="link-top-header" href="">
+                                <img class="icon-top-header"
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_tim_cua_hang.svg"
+                                    alt="" />
+                                Tìm cửa hàng
+                            </a>
+                        </li>
+                        <!-- list3 -->
+                        <li class="top-header-item">
+                            <a class="link-top-header" href="">
+                                <img class="icon-top-header"
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_heart_header.svg"
+                                    alt="" />
+                                Yêu thích
+                            </a>
+                        </li>
+                        <!-- list4 -->
+                        <li class="top-header-item">
+                            <a class="link-top-header" href="../../subsite/Log In/LogIn.html">
+                                <img class="icon-top-header"
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images//svg/icon_dang_nhap.svg"
+                                    alt="" />
+                                Đăng nhập
+                            </a>
+                        </li>
+                        <!-- list5 -->
+                        <li class="top-header-item">
+                            <a class="link-top-header" href="../../subsite/Cart/Cart.html">
+                                <img class="icon-top-header"
+                                    src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_gio_hang.svg"
+                                    alt="" />
+                                Giỏ hàng (0)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="main-header-content">
+                        <a href="../../index.html" class="logo">
+                            <img height="100px" src="../../assets/img/logo.jpg" alt="" />
+                        </a>
+                        <ul class="nav-menu">
+                            <!-- item1 -->
+                            <li class="menu-item menu-product">
+                                <a class="link-menu-item" href="/two-pages/subsite/listProduct/listProduct.html">
+                                    SẢN PHẨM
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+
+                            </li>
+                            <li class="line"></li>
+                            <!-- item2 -->
+                            <li class="menu-item">
+                                <a class="link-menu-item" href="">
+                                    NAM
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                            </li>
+                            <li class="line"></li>
+                            <!-- item3 -->
+                            <li class="menu-item">
+                                <a class="link-menu-item" href="">
+                                    NỮ
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <i class="fa-solid fa-angle-up"></i>
+                                </a>
+                            </li>
+                            <li class="line"></li>
+                            <!-- item1 -->
+                            <li class="menu-item">
+                                <a class="link-menu-item" href=""> SALE OFF </a>
+                            </li>
+                            <li class="line"></li>
+                            <!-- item1 -->
+                            <li class="menu-item">
+                                <a class="link-menu-item" href="../../index.html">
+                                    <img class="img-logo"
+                                        src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/DiscoverYOU.svg"
+                                        alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="form-group">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="ipt-search" placeholder="Tìm kiếm" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-news">
+                <div class="container">
+                    <div class="hot-news-content">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <span><i>FREE SHIPPING VỚI HOÁ ĐƠN TỪ 800K !</i></span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <Main>
+            <div class="main-page">
+                <div class="breadcrumb">
+                    <span>Giày</span>
+                    <div class="hr-breack"></div>
+                    <span>Track 6</span>
+                    <div class="hr-breack"></div>
+                    <span style="font-weight: 900;">Track 6 2.Blues - Low Top</span>
+                </div>
+                <div class="product-detail">
+                    <div class="product-detail-left">
+                        <img src="https://ananas.vn/wp-content/uploads/Pro_A6T014_1.jpeg" alt="">
+                        <div class="list-prd-detail">
+                            <img src="https://ananas.vn/wp-content/uploads/Pro_A6T014_1.jpeg" alt="">
+                            <img src="https://ananas.vn/wp-content/uploads/Pro_A6T014_3.jpeg" alt="">
+                            <img src="https://ananas.vn/wp-content/uploads/Pro_A6T014_4.jpeg" alt="">
+                            <img src="https://ananas.vn/wp-content/uploads/Pro_A6T014_2.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="product-detail-right">
+                        <h1>TRACK 6 2.BLUES - LOW TOP - NAVY BLUE</h1>
+                        <div class="detail1">
+                            <span>Mã sản phẩm: <span style="font-weight: 900;"> A6T014</span></span>
+                            <span>Tình trạng: <span style="font-weight: 900;">New Arrival</span></span>
+                        </div>
+                        <h2 style=" color: #f15e2c; padding:10px;">1.190.000 VND</h2>
+                        <div class="nav-divider"></div><br>
+                        <div class="square-color" style="margin:0 20px;">
+                            <div style="background-color:#2e496e;"></div>
+                            <div style="background-color: #e7ece2;"></div>
+                        </div>
+                        <br> <br><br>
+                        <div class="nav-divider"></div>
+
+                        <div class="detail1">
+                            <div class="">
+                                <h1>SIZE</h1>
+                                <input type="number">
+                            </div>
+
+                            <div class="">
+                                <h1>SỐ LƯỢNG</h1>
+                                <input type="number">
+                            </div>
+                        </div>
+                        <div class="grp-btn1">
+                            <div class="grp-btn1-left">
+                                <h2>THÊM VÀO GIỎ HÀNG</h2>
+                            </div>
+                            <div class="grp-btn1-right">
+                                <h1><i class="fa-regular fa-heart"></i></h1>
+                            </div>
+                        </div>
+                        <div class="grp-btn2">
+                            <h2>THANH TOÁN</h2>
+                        </div>
+                        <p class="text-orange">Vui lòng chọn Size/Số lượng phù hợp</p>
+                        <h2 class="text-orange">THÔNG TIN SẢN PHẨM </h2>
+                        <div class="nav-divider"></div>
+                        <p>Gender: Unisex</p>
+                        <p>Size run: 35 – 46</p>
+                        <p>Upper: Eco Nylon Fabric</p>
+                        <p>Outsole: Rubber</p>
+                        <img src="	https://ananas.vn/wp-content/uploads/Ananas_SizeChart.jpg" alt="">
+                        <h2 class="text-orange"> QUY ĐỊNH ĐỔI SẢN PHẨM </h2>
+                        <ul class="list-qd">
+                            <li>-Chỉ đổi hàng 1 lần duy nhất, mong bạn cân nhắc kĩ trước khi quyết định.</li>
+                            <li>-Thời hạn đổi sản phẩm khi mua trực tiếp tại cửa hàng là 07 ngày, kể từ ngày mua. Đổi
+                                sản
+                                phẩm khi mua online là 14 ngày, kể từ ngày nhận hàng.</li>
+                            <li>-Sản phẩm đổi phải kèm hóa đơn. Bắt buộc phải còn nguyên tem, hộp, nhãn mác.</li>
+                            <li>-Sản phẩm đổi không có dấu hiệu đã qua sử dụng, không giặt tẩy, bám bẩn, biến dạng.</li>
+                            <li>-Ananas chỉ ưu tiên hỗ trợ đổi size. Trong trường hợp sản phẩm hết size cần đổi, bạn có
+                                thể đổi sang 01 sản phẩm khác:
+                                - Nếu sản phẩm muốn đổi ngang giá trị hoặc có giá trị cao hơn, bạn sẽ cần bù khoảng
+                                chênh lệch tại thời điểm đổi (nếu có).
+                                - Nếu bạn mong muốn đổi sản phẩm có giá trị
+                            </li>
+                            <li>-Trong trường hợp sản phẩm - size bạn muốn đổi không còn hàng trong hệ thống. Vui lòng
+                                chọn sản phẩm khác.</li>
+                            <li>-Không hoàn trả bằng tiền mặt dù bất cứ trong trường hợp nào. Mong bạn thông cảm.</li>
+                        </ul>
+                        <div class="nav-divider"></div>
+                        <h2 class="text-orange">
+                            BẢO HÀNH THẾ NÀO ? </h2>
+                        <p>Mỗi đôi giày Ananas trước khi xuất xưởng đều trải qua nhiều khâu kiểm tra. Tuy vậy, trong quá
+                            trình sử dụng, nếu nhận thấy các lỗi: gãy đế, hở đế, đứt chỉ may,...trong thời gian 6 tháng
+                            từ ngày mua hàng, mong bạn sớm gửi sản phẩm về Ananas nhằm giúp chúng tôi có cơ hội phục vụ
+                            bạn tốt hơn. Vui lòng gửi sản phẩm về bất kỳ cửa hàng Ananas nào, hoặc gửi đến trung tâm bảo
+                            hành Ananas ngay trong trung tâm TP.HCM trong giờ hành chính:
+                        </p>
+                        <p> Địa chỉ: 5C Tân Cảng, P.25, Q.Bình Thạnh , TP. Hồ Chí Minh.
+                            Hotline: 028 2211 0067</p><br>
+                        <div class="nav-divider"></div>
+                    </div>
+                    <br><br>
+                </div>
+                <div class="nav-divider"></div>
+                <div class="fluid">
+                    <h1>SẢN PHẨM LIÊN QUAN</h1>
+                    <div class="list-Product">
+                         <div class="product-item">
+                             <div class="product-item-img">
+                                 <img class="img1" src="https://ananas.vn/wp-content/uploads/Pro_A6T014_2-500x500.jpeg" alt="">
+                                 <img  src="	https://ananas.vn/wp-content/uploads/Pro_A6T014_1-500x500.jpeg" alt="">
+                                 <div class="product-item-buy">
+                                     <button class="product-item-btn">MUA NGAY</button>
+                                     <i  class="fa-regular fa-heart heart"></i>
+                                 </div>
+                             </div>
+                             <div class="product-item-title">
+                                 <h3 class="type">New Arrival</h3>
+                                 <div class="nav-divider"></div>
+                                 <h3>Track 6 2.Blues - Low Top</h3>
+                                 <span>Navy Blue</span>
+                                 <h3>1.190.000 VND</h3>
+                             </div>
+                         </div>
+                         <div class="product-item">
+                             <div class="product-item-img">
+                                 <img class="img1" src="https://ananas.vn/wp-content/uploads/Pro_A6T015_1-500x500.jpeg" alt="">
+                                 <img  src="https://ananas.vn/wp-content/uploads/Pro_A6T015_2-500x500.jpeg	" alt="	">
+                                 <div class="product-item-buy">
+                                     <button class="product-item-btn">MUA NGAY</button>
+                                     <i  class="fa-regular fa-heart heart"></i>
+                                 </div>
+                             </div>
+                             <div class="product-item-title">
+                                 <h3 class="type">New Arrival</h3>
+                                 <div class="nav-divider"></div>
+                                 <h3>Track 6 2.Blues - Low Top</h3>
+                                 <span>Bluewash</span>
+                                 <h3>1.290.000 VND</h3>
+                             </div>
+                         </div>
+                         <div class="product-item">
+                             <div class="product-item-img">
+                                 <img class="img1" src="https://ananas.vn/wp-content/uploads/Pro_AHCS002_2-500x500.jpg" alt="">
+                                 <img  src="https://ananas.vn/wp-content/uploads/Pro_AHCS002_1-500x500.jpeg" alt="">
+                                 <div class="product-item-buy">
+                                     <button class="product-item-btn">MUA NGAY</button>
+                                     <i  class="fa-regular fa-heart heart"></i>
+                                 </div>
+                             </div>
+                             <div class="product-item-title">
+                                 <h3 class="type">New Arrival</h3>
+                                 <div class="nav-divider"></div>
+                                 <h3>High Crew Socks - Ananas Puppet Club</h3>
+                                 <span>Tie Dye</span>
+                                 <h3>119.000 VND</h3>
+ 
+                             </div>
+                         </div>
+                         <div class="product-item">
+                             <div class="product-item-img">
+                                 <img class="img1" src="https://ananas.vn/wp-content/uploads/Pro_AHCS003_2-500x500.jpg" alt="">
+                                 <img  src="https://ananas.vn/wp-content/uploads/Pro_AHCS003_1-500x500.jpeg" alt="">
+                                 <div class="product-item-buy">
+                                     <button class="product-item-btn">MUA NGAY</button>
+                                     <i  class="fa-regular fa-heart heart"></i>
+                                 </div>
+                             </div>
+                             <div class="product-item-title">
+                                 <h3 class="type">New Arrival</h3>
+                                 <div class="nav-divider"></div>
+                                 <h3>High Crew Socks - Ananas Puppet Club</h3>
+                                 <span>Tie Dye</span>
+                                 <h3>119.000 VND</h3>
+                             </div>
+                         </div>
+                    </div>
+                    <br><br>
+                <div class="nav-divider"></div>
+                    <br><br>
+                    <h1>SẢN PHẨM ĐÃ XEM</h1>
+                    <br><br>
+                </div>
+            </div>
+
+        </Main>
+
+        <footer>
+            <div class="footer-left">
+                <img class="img-footer" src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Store.svg"
+                    alt="">
+                <a class=" link-search-footer" href="">
+                    TÌM CỬA HÀNG
+                </a>
+            </div>
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-content">
+                        <!-- item1 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">SẢN PHẨM</h4>
+                            </a>
+                            <ul class="footer-menu-list">
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Giày Nam</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Giày Nữ</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Thời trang & Phụ kiện</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Sale-off</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- item2 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">VỀ CÔNG TY</h4>
+                            </a>
+                            <ul class="footer-menu-list">
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Dứa tuyển dụng</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Liên hệ nhượng quyền</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Về Ananas</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- item3 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">HỖ TRỢ</h4>
+                            </a>
+                            <ul class="footer-menu-list">
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">FAQs</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Bảo mật thông tin</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Chính sách chung</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Tra cứu đơn hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- item4 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">LIÊN HỆ</h4>
+                            </a>
+                            <ul class="footer-menu-list">
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Email góp ý</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">Hotline</a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">0963 429 749</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- item5 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">ANANAS SOCIAL</h4>
+                            </a>
+                            <ul class="footer-menu-list footer-social">
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">
+                                        <img class="social-footer"
+                                            src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_facebook.svg"
+                                            alt="">
+                                    </a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">
+                                        <img class="social-footer"
+                                            src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_instagram.svg"
+                                            alt="">
+                                    </a>
+                                </li>
+                                <li class="footer-menu-item">
+                                    <a class="des" href="">
+                                        <img class="social-footer"
+                                            src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/icon_youtube.svg"
+                                            alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- item6 -->
+                        <div class="footer-menu">
+                            <a class="link-footer-menu" href="">
+                                <h4 class="title-h4">ĐĂNG KÝ NHẬN MAIL</h4>
+                            </a>
+                            <div class="form-footer">
+                                <input class="inp-footer" type="text">
+                                <a class="link-search" href="">
+                                    <img class="click-here"
+                                        src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/arrow_right.jpg"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer-menu footer-brand-img">
+                        <a class="link-brand" href="">
+                            <img class="img-brand-footer"
+                                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/svg/Logo_Ananas_Footer.svg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="footer-bottom">
+                        <a class="link-footer-bottom" href="">
+                            <img class="img-footer-bottom"
+                                src="https://ananas.vn/wp-content/themes/ananas/fe-assets/images/icon_bocongthuong.png"
+                                alt="">
+                        </a>
+                        <p class="des">
+                            Copyright © 2022 Ananas. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

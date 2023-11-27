@@ -1,0 +1,160 @@
+.container-fluid{
+    width: 80%;
+    margin: 50px auto;
+    min-height: 100vh;
+    display: flex;
+}
+.container-fluid-left{
+    width: 25%;
+    margin-right: 20px;
+
+
+}
+.container-fluid-right{
+    width: 75%;
+    /* background: rgb(152, 202, 255); */
+
+}
+.left-divider{
+    height: 2px;
+    border-top: #303030 2px solid;
+    margin: 2px 0px;
+}
+
+.left-type{
+    display: flex;
+    justify-content: space-around;
+}
+.left-type span{
+    font-size: 1.5rem;
+    font-weight: 1000;
+    padding: 20px 10px;
+    color: #999;
+}
+.left-type span:hover{
+    color: rgb(29, 29, 29);
+}
+.tabpanel{
+}
+.tabpanel p {
+    padding: 10px;
+    font-size: 1rem;
+
+}
+.tabpanel p:hover{
+    font-weight: 600;
+    background-color: rgb(202, 202, 202);
+}
+.orange{
+    color: #f15e2c;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.left-tree p{
+    padding: 10px;
+    font-size: 1rem;
+}
+.left-tree p:hover{
+    font-weight: 500;
+    background-color: rgb(202, 202, 202);
+}
+.nav-divider {
+    background-color: #fff;
+    background: url(https://ananas.vn/wp-content/themes/ananas/fe-assets/images/bg_divider.png) repeat-x 7px;
+    height: 2px;
+    margin: 4px 0px;
+}
+.square-color div{
+    width: 30px ;
+    height: 30px;
+    margin: 3px;
+    float: left;
+    border: 1px solid red;
+}
+.banner-img{
+    width: 100%;
+}
+.list-Product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:  0 20px;
+}
+.product-item{
+    min-height: 500px;
+    max-width: 300px;
+    /* border: 1px solid; */
+    margin: 15px;
+    box-shadow: 1px 1px 10px;
+}
+.product-item:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 30px;
+}
+.product-item:hover .product-item-img .img1{
+    z-index: 1000;
+}
+.product-item:hover .product-item-buy{
+    display: flex;
+    justify-content: space-around;
+}
+.heart{
+    color: red;
+    font-size: 2rem;
+    padding: 5px 0;
+}
+.product-item-img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.product-item-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+.product-item-buy{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    z-index: 1000;
+    display: none;
+    padding-right: 15px;
+}
+.product-item-btn{
+    background-color: #f15e2c;
+    border: #f15e2c 1px solid;
+    color: #fff;
+    font-family: GeometricExtraBold;
+    font-size: 23px;
+    width: 200px;
+    height: 50px;
+    padding: 10px ;
+    margin: 0 20px ;
+}
+.product-item-title{
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+}
+.type{
+    color: #f15e2c;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    .container-fluid{
+        width: 100% ;
+    }
+}

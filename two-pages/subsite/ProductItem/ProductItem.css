@@ -1,0 +1,132 @@
+.main-page{
+    width: 80%;
+    margin: auto;
+}
+.breadcrumb{
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid;
+}
+.breadcrumb span{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.hr-breack{
+
+}
+.product-detail{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+
+}
+.product-detail-left img{
+    width: 100%;
+}
+.product-detail-left{
+    width: 50%;
+    min-height: 100vh;
+}
+.product-detail-right{
+    width: 50%;
+    min-height: 100vh;
+    padding: 20px;
+
+
+}
+.list-prd-detail{
+    width: 100%;
+    display: flex;
+}
+.list-prd-detail img{
+    width: 22% !important;
+    margin: 10px;
+}
+.detail1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.nav-divider {
+    background-color: #fff;
+    background: url(https://ananas.vn/wp-content/themes/ananas/fe-assets/images/bg_divider.png) repeat-x 7px;
+    height: 2px;
+    margin: 4px 0px;
+}
+.detail1 div{
+    width: 50%;
+    margin: 5px;
+}
+.detail1 input{
+    height: 40px;
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 900;
+}
+.grp-btn1{
+    width: 100%;
+    display: flex;
+}
+.grp-btn1-left{
+    width: 70%;
+    margin: 2px;
+    height: 70px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grp-btn1-right{
+    width: 30%;
+    margin: 2px;
+    height: 70px;
+    background-color: black;
+    color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grp-btn2{
+    width: 100%;
+    height: 70px;
+    background-color: orangered;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.text-orange{
+    color: orangered;
+    padding:  20px 0;
+
+}
+.list-qd li{
+    padding: 10px;
+}
+.fluid{
+    text-align: center;
+    padding: 20px;
+}
+.list-Product{
+    display: grid ;
+    grid-template-columns: auto auto auto auto !important;
+}
+.list-Product-item{
+    min-width: 300px;
+}
+.product-item-img img{
+    left: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .main-page{
+        width: 100% !important;
+    }
+    .list-Product{
+        display: grid ;
+        grid-template-columns: auto auto  !important;
+    }
+}
